@@ -1,6 +1,6 @@
 $("path, circle").click(function(e) {
   var location = $(this).offset();
-  console.log(location.top);
+  //console.log(location.top);
   $('#info-box').css('display','block');
   $('#info-box').css('top',location.top - 40);
    $('#info-box').css('left',location.left);
